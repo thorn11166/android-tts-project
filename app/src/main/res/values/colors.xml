@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Light theme color roles (fallback for pre-Android 12 devices) -->
+    <color name="md_theme_light_primary">#006A60</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#9EF2E4</color>
+    <color name="md_theme_light_onPrimaryContainer">#00201C</color>
+    <color name="md_theme_light_surface">#FAFDFC</color>
+    <color name="md_theme_light_onSurface">#191C1C</color>
+    <color name="md_theme_light_surfaceVariant">#DAE5E2</color>
+    <color name="md_theme_light_onSurfaceVariant">#3F4947</color>
+    <color name="md_theme_light_outline">#6F7977</color>
+    <color name="md_theme_light_outlineVariant">#BEC9C7</color>
+
+    <!-- Dark theme color roles -->
+    <color name="md_theme_dark_primary">#82D5C8</color>
+    <color name="md_theme_dark_onPrimary">#00362F</color>
+    <color name="md_theme_dark_primaryContainer">#005049</color>
+    <color name="md_theme_dark_onPrimaryContainer">#9EF2E4</color>
+    <color name="md_theme_dark_surface">#191C1C</color>
+    <color name="md_theme_dark_onSurface">#E0E3E2</color>
+    <color name="md_theme_dark_surfaceVariant">#3F4947</color>
+    <color name="md_theme_dark_onSurfaceVariant">#BEC9C7</color>
+    <color name="md_theme_dark_outline">#899391</color>
+    <color name="md_theme_dark_outlineVariant">#3F4947</color>
 </resources>

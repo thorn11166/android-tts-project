@@ -5,13 +5,21 @@
     <string name="settings_title">Fish Audio TTS Settings</string>
     <string name="voice_picker_title">Select Voice</string>
 
+    <!-- Card section headers -->
+    <string name="card_auth">Authentication</string>
+    <string name="card_voice">Voice</string>
+    <string name="card_model">Model &amp; Quality</string>
+    <string name="card_playback">Playback</string>
+
     <!-- Settings labels -->
     <string name="label_api_key">API Key</string>
     <string name="hint_api_key">Enter your Fish Audio API key</string>
-    <string name="label_selected_voice">Selected Voice</string>
+    <string name="btn_verify_key">Verify Key</string>
+    <string name="label_selected_voice">Active Voice</string>
     <string name="btn_select_voice">Browse Voices</string>
     <string name="label_model">Model</string>
-    <string name="label_latency">Balanced Latency</string>
+    <string name="label_latency">Balanced Latency (WebSocket)</string>
+    <string name="label_latency_desc">Lower latency, uses streaming connection</string>
     <string name="label_speed">Speed</string>
     <string name="label_volume">Volume (dB)</string>
     <string name="btn_save">Save Settings</string>
@@ -21,11 +29,14 @@
     <string name="test_phrase">Hello, I am Fish Audio TTS. This is a test of your selected voice.</string>
     <string name="test_success">API connection successful</string>
     <string name="test_failed">Test failed: %s</string>
+    <string name="key_valid">API key verified</string>
+    <string name="key_invalid">Invalid API key: %s</string>
 
     <!-- Voice picker -->
     <string name="hint_search_voices">Search voices…</string>
     <string name="hint_custom_id">Or paste a voice reference ID</string>
     <string name="btn_use_custom">Use Custom ID</string>
+    <string name="filter_all">All</string>
 
     <!-- Errors -->
     <string name="error_no_api_key">Please enter your API key first</string>
