@@ -1,6 +1,5 @@
 package com.fishaudio.tts.api
 
-import android.media.AudioFormat
 import com.fishaudio.tts.model.TtsRequest
 import kotlinx.coroutines.suspendCancellableCoroutine
 import kotlinx.serialization.encodeToString
@@ -17,7 +16,7 @@ import kotlin.coroutines.resumeWithException
 
 class FishAudioWebSocketClient {
 
-    private const val WS_URL = "wss://api.fish.audio/v1/tts/live"
+    private val wsUrl = "wss://api.fish.audio/v1/tts/live"
 
     private val client = OkHttpClient.Builder()
         .connectTimeout(10, TimeUnit.SECONDS)
@@ -38,7 +37,7 @@ class FishAudioWebSocketClient {
     ): Result<Unit> = runCatching {
         suspendCancellableCoroutine { cont ->
             val request = Request.Builder()
-                .url(WS_URL)
+                .url(wsUrl)
                 .addHeader("Authorization", "Bearer $apiKey")
                 .build()
 
