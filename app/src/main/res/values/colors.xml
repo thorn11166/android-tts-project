@@ -12,6 +12,9 @@
     <color name="md_theme_light_outline">#6F7977</color>
     <color name="md_theme_light_outlineVariant">#BEC9C7</color>
 
+    <!-- Launcher icon background -->
+    <color name="teal_700">#006A60</color>
+
     <!-- Dark theme color roles -->
     <color name="md_theme_dark_primary">#82D5C8</color>
     <color name="md_theme_dark_onPrimary">#00362F</color>
